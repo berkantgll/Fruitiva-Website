@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header.product {
+    position: absolute;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    top: 0;
+    background-color:#000000;
+    z-index: 1000;
+    padding: 10px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.links a {
+    padding: 10px 35px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 0px 20px;
+    font-size: 15px;
+    font-family: "Lexend", serif;
+    color: #000000;
+    background-color: rgba(255, 255, 255, 0.836);
+    font-weight: 500;
+
+}
+
+.product .active {
+    background-color: rgb(10, 255, 243);
+}
+
+
+.icon a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 0;
+}
+
+.icon i {
+    color: white;
+    position: absolute;
+    left: 0;
+    margin-left: 70px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.product i{
+    margin-right: 2px;
+}
+
+.all{
+    min-height: 200vh;
+    background-color: antiquewhite;
+}
+
+.hepsi{
+    padding: 50px;
+    display: grid;
+    grid: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+    gap: 70px;
+}
+
+.hepsi img {
+    margin-top: 80px;
+    width:100%;
+    height: 650px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 40px;
+ box-shadow: rgb(0, 0, 0)0px 5px 10px; 
+    transition: 0.5s ease;
+}
+
+.hepsi img:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transform: scale(1.040);
+}
+
+.redfruit{
+    min-height: 300vh;
+    background: linear-gradient(purple,rgb(240, 103, 126),red,black,black,purple,black);
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.red{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+.card {
+margin-top: 130px;
+margin-left: 350px;
+margin-right: -200px;
+transition: 0.5s ease;
+}
+
+.card:hover{
+    transform: scale(1.040);
+}
+  
+.card img {
+    height: 700px;
+    width: 500px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 15px;
+  }
+
+.card h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 40px;
+    color: white;
+}
+
+.citrusseries{
+    min-height: 100vh;
+    background:linear-gradient(orange ,rgb(255, 0, 0)) ;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.orange{
+display: flex;
+}
+
+.trop{
+    min-height: 300vh;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 3px solid rgb(255, 255, 255);
+}
+
+.tropical{
+    min-height: 300vh;
+    background: linear-gradient(rgb(255, 0, 140),rgb(255, 123, 0),rgb(197, 34, 156),rgb(12, 223, 177),rgb(255, 238, 0),rgb(243, 243, 243),rgb(224, 194, 94),rgba(14, 255, 203, 0.863));
+}
+
+
+.green{
+    min-height: 200vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
